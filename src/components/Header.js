@@ -165,6 +165,7 @@ function NavBar() {
           <li>
             <Link to="#" className="home" onClick={home}>
               Home
+              {/* ❣ Home ❣ */}
             </Link>
           </li>
 
@@ -172,6 +173,7 @@ function NavBar() {
           <li>
             <Link to="#" className="about" onClick={about}>
               About
+              {/* ღ  ღ */}
             </Link>
           </li>
 
@@ -180,6 +182,7 @@ function NavBar() {
           <li>
             <Link to="#" className="services" onClick={services}>
               Services
+              {/* ❦ Services ❦ */}
             </Link>
           </li>
 
@@ -188,6 +191,7 @@ function NavBar() {
           <li>
             <Link to="#" className="galery" onClick={galery}>
               Galery
+              {/* ♥ Galery ♥ */}
             </Link>
           </li>
 
@@ -196,6 +200,7 @@ function NavBar() {
           <li>
             <Link to="#" className="contact" onClick={contact}>
               Contact
+             {/* ❧ Contact ☙ */}
             </Link>
           </li>
         </nav>
