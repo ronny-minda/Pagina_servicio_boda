@@ -1,4 +1,6 @@
 
+import galeria1 from '../../img/galeria1.jpg'
+
 import styled, {
     css,
     keyframes,
@@ -569,6 +571,72 @@ export const MainServices = styled.main`
         }
     }
     
+`;
+
+export const MainGallery = styled.main`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    div {
+        background-image: url( ${ galeria1 });
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            color: #fff;
+            font-size: 50px;
+            font-family: 'Ballet', cursive;
+        }
+    }
+    section {
+        margin: 20px 0;
+        width: 70%;
+        height: auto;
+
+        img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin: 20px 0;
+            filter: opacity(100%);
+            cursor: pointer;
+        }
+        img:hover {
+            filter: opacity(70%);
+        }
+    }
+    @media (min-width: 700px) {
+        section {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+    @media (max-width: 700px) {
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @media (max-width: 500px) {
+        div {
+            width: 100%;
+        }
+        section {
+            width: 100%;
+            img {
+                width: 100%;
+                
+            }
+        }
+    }
 `;
 
 export const Footer = styled.footer`
