@@ -395,6 +395,69 @@ export const MainHome = styled.main`
     }
 `;
 
+export const MainAbout = styled.main`
+    text-align: center;
+    margin: 20px 0;
+    h2 {
+        font-size: 40px;
+        font-family: 'Ballet', cursive;
+    }
+    p {
+        font-family: 'Tangerine', cursive;
+        font-size: 20px;
+    }
+    @media (min-width: 560px) {
+        section {
+            margin-top: 20px;
+            display: flex;
+            width: 100%;
+            div {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                h3 {
+                    font-size: 30px;
+                    font-family: 'Ballet', cursive;
+                }
+                p {
+
+                }
+            }
+            img {
+                width: 50%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    @media (max-width: 560px) {
+        section {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 20px;
+            div {
+                width: 100%;
+                h3 {
+                    font-size: 30px;
+                    font-family: 'Ballet', cursive;
+                }
+                p {
+                    margin-bottom: 20px;
+                }
+            }
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+        }
+    }
+    
+`;
+
 export const Footer = styled.footer`
     background-color: #B9D9EE88;
     box-shadow: 0px -10px 5px 1px #D3E5FF;

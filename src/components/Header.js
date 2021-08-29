@@ -163,7 +163,7 @@ function NavBar() {
         
         <nav>
           <li>
-            <Link to="#" className="home" onClick={home}>
+            <Link to="/Pagina_servicio_boda/Home" className="home" onClick={home}>
               Home
               {/* ❣ Home ❣ */}
             </Link>
@@ -171,7 +171,7 @@ function NavBar() {
 
 
           <li>
-            <Link to="#" className="about" onClick={about}>
+            <Link to="/Pagina_servicio_boda/SobreNosotros" className="about" onClick={about}>
               About
               {/* ღ  ღ */}
             </Link>
@@ -180,7 +180,7 @@ function NavBar() {
 
 
           <li>
-            <Link to="#" className="services" onClick={services}>
+            <Link to="/Pagina_servicio_boda/Servicios" className="services" onClick={services}>
               Services
               {/* ❦ Services ❦ */}
             </Link>
@@ -189,7 +189,7 @@ function NavBar() {
 
 
           <li>
-            <Link to="#" className="galery" onClick={galery}>
+            <Link to="/Pagina_servicio_boda/Galeria" className="galery" onClick={galery}>
               Galery
               {/* ♥ Galery ♥ */}
             </Link>
@@ -198,7 +198,7 @@ function NavBar() {
 
 
           <li>
-            <Link to="#" className="contact" onClick={contact}>
+            <Link to="/Pagina_servicio_boda/Contacto" className="contact" onClick={contact}>
               Contact
              {/* ❧ Contact ☙ */}
             </Link>
