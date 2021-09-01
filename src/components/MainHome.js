@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+
+import { Link } from 'react-router-dom';
 
 import { MainHome, CartAticulo } from './styledComponents/Styled'
 
-import logo from '../ico/boda.svg'
 import pareja from '../img/pareja.jpg'
 import servicio from '../img/servicio.jpg'
 import galeria from '../img/galeria.jpeg';
@@ -42,7 +42,7 @@ function Main() {
                         <br></br>
                         Brindamos servicio a todo el país con más de diez y seis años en el mercado nacional; los cuales ratifican nuestra especialidad en: Eventos con clase, alimentación de calidad, servicio de primera, decoración innovadora; conjunto de detalles que hacen de un evento único y espectacular.
                         </p>
-                        <a href="#">Ver servicios</a>
+                        <Link to="/Pagina_servicio_boda/Servicios">Ver servicios</Link>
                     </div>
                     
                     <img src={ servicio } alt="Pareja"></img>
@@ -57,7 +57,7 @@ function Main() {
                         <p>
                         Con servicio por todo el país con diez y seis años; los cuales ratifican nuestra especialidad: eventos con clase, alimentación de calidad, servicio de primera, decoración innovadora; conjunto de detalles que hacen de un evento único y espectacular.
                         </p>
-                        <a href="#">Ver galeria</a>
+                        <Link to="/Pagina_servicio_boda/Galeria">Ver galeria</Link>
                     </div>
                     
                     
@@ -70,7 +70,7 @@ function Main() {
                         <p>
                         Somos los Mejores Organizadores de Bodas y Eventos en Ecuador; con dieciséis años en el mercado nacional; por lo tanto ratifican nuestra especialidad: eventos con clase, alimentación de calidad, servicio de primera, decoración innovadora; conjunto de detalles que hacen de un evento único y espectacular.
                         </p>
-                        <a href="#">Sobre nosotros</a>
+                        <Link to="/Pagina_servicio_boda/SobreNosotros">Sobre nosotros</Link>
                     </div>
                     
                     <img src={ about } alt="Pareja"></img>

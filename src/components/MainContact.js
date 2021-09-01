@@ -1,6 +1,6 @@
 
 import { MainContacto } from './styledComponents/Styled';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { Formik, Form, Field } from 'formik';
 
 import contacto from '../img/contacto.jpg';
 
@@ -34,13 +34,13 @@ function Main() {
                             telefono: '',
                             mensaje: ''
                         }}
-                        validate={(valores) => {
-                            let errores = {};
+                        // validate={(valores) => {
+                        //     let errores = {};
 
-                            // ver los valores que digite el usuario
+                        //     // ver los valores que digite el usuario
 
 
-                        }}
+                        // }}
                         onSubmit={(valores, {resetForm}) => {
                             resetForm();
                             console.log('Formulario enviado');

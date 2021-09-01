@@ -2,9 +2,6 @@
 import galeria1 from '../../img/galeria1.jpg'
 
 import styled, {
-    css,
-    keyframes,
-    ThemeProvider,
     createGlobalStyle,
 } from "styled-components";
 

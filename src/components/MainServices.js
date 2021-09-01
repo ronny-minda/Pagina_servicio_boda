@@ -1,4 +1,6 @@
 
+import { Link } from 'react-router-dom';
+
 import servicio from '../img/servicio2.jpg'
 
 import { MainServices } from './styledComponents/Styled'
@@ -17,7 +19,7 @@ function Main() {
                         <p>1hr</p>
                         <p>$150</p>
                     </div>
-                    <a href="">Reservar Ahora</a>
+                    <Link href="#" >Reservar Ahora</Link>
                 </li>
             </section>
 
@@ -28,7 +30,7 @@ function Main() {
                         <p>1hr</p>
                         <p>$150</p>
                     </div>
-                    <a href="">Reservar Ahora</a>
+                    <Link href="#" >Reservar Ahora</Link>
                 </li>
             </section>
 
@@ -39,7 +41,7 @@ function Main() {
                         <p>1hr</p>
                         <p>$150</p>
                     </div>
-                    <a href="">Reservar Ahora</a>
+                    <Link href="#" >Reservar Ahora</Link>
                 </li>
             </section>
 
@@ -50,7 +52,7 @@ function Main() {
                         <p>1hr</p>
                         <p>$150</p>
                     </div>
-                    <a href="">Reservar Ahora</a>
+                    <Link href="#" >Reservar Ahora</Link>
                 </li>
             </section>
 
@@ -61,7 +63,7 @@ function Main() {
                         <p>1hr</p>
                         <p>$150</p>
                     </div>
-                    <a href="">Reservar Ahora</a>
+                    <Link href="#" >Reservar Ahora</Link>
                 </li>
             </section>
 
@@ -72,7 +74,7 @@ function Main() {
                         <p>1hr</p>
                         <p>$150</p>
                     </div>
-                    <a href="">Reservar Ahora</a>
+                    <Link href="#" >Reservar Ahora</Link>
                 </li>
             </section>
 
@@ -83,7 +85,7 @@ function Main() {
                         <p>1hr</p>
                         <p>$150</p>
                     </div>
-                    <a href="">Reservar Ahora</a>
+                    <Link href="#" >Reservar Ahora</Link>
                 </li>
             </section>
 
@@ -94,7 +96,7 @@ function Main() {
                         <p>1hr</p>
                         <p>$150</p>
                     </div>
-                    <a href="">Reservar Ahora</a>
+                    <Link href="#" >Reservar Ahora</Link>
                 </li>
             </section>
         </MainServices>
